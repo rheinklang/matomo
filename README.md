@@ -1,3 +1,5 @@
+[![CI](https://github.com/rheinklang/matomo/actions/workflows/ci.yml/badge.svg)](https://github.com/rheinklang/matomo/actions/workflows/ci.yml)
+
 # Matomo (formerly Piwik) - matomo.org
 
 [![Latest Stable Version](https://poser.pugx.org/matomo/matomo/v/stable)](https://matomo.org/download/)
@@ -24,6 +26,7 @@ Matomo aims to be a Free software alternative to Google Analytics and is already
 > « To create, as a community, the leading international open source digital analytics platform, that gives every user full control of their data. »
 
 Or in short:
+
 > « Liberate Web Analytics »
 
 ## License
@@ -32,27 +35,27 @@ Matomo is released under the GPL v3 (or later) license, see [LICENSE](LICENSE).
 
 ## Requirements
 
-  * PHP 7.2.5 or greater
-  * MySQL version 5.5 or greater, or MariaDB 
-  * PHP extension pdo and pdo_mysql, or the MySQLi extension
-  * Matomo is OS / server independent
+- PHP 7.2.5 or greater
+- MySQL version 5.5 or greater, or MariaDB
+- PHP extension pdo and pdo_mysql, or the MySQLi extension
+- Matomo is OS / server independent
 
 See https://matomo.org/docs/requirements/.
 
 ## Install Matomo
 
-  * [Download Matomo](https://matomo.org/download/)
-  * Upload matomo to your webserver
-  * Point your browser to the directory
-  * Follow the steps
-  * Add the given javascript code to your pages
-  * (You may also generate fake data to experiment, by enabling the plugin VisitorGenerator)
+- [Download Matomo](https://matomo.org/download/)
+- Upload matomo to your webserver
+- Point your browser to the directory
+- Follow the steps
+- Add the given javascript code to your pages
+- (You may also generate fake data to experiment, by enabling the plugin VisitorGenerator)
 
 See https://matomo.org/docs/installation/.
 
 (When using Matomo for development you need to [install Matomo from the Git repository](https://matomo.org/faq/how-to-install/faq_18271/)).
 
-## Free trial 
+## Free trial
 
 If you do not have a server or don't want to host yourself you can use our Matomo Cloud partner service (21 day free trial): https://matomo.org/start-free-analytics-trial/
 
@@ -83,7 +86,7 @@ We use [BrowserStack.com](https://www.browserstack.com/) testing tool to help ch
 
 ## Security
 
-Security is a top priority at Matomo. As potential issues are discovered, we validate, patch and release fixes as quickly as we can. We have a security bug bounty program in place that rewards researchers for finding security issues and disclosing them to us. 
+Security is a top priority at Matomo. As potential issues are discovered, we validate, patch and release fixes as quickly as we can. We have a security bug bounty program in place that rewards researchers for finding security issues and disclosing them to us.
 
 [Learn more](https://matomo.org/security/) or check out our [HackerOne program](https://hackerone.com/matomo).
 
@@ -91,7 +94,7 @@ Security is a top priority at Matomo. As potential issues are discovered, we val
 
 For **Free support**, post a message in our community forums: [forum.matomo.org](https://forum.matomo.org/)
 
-For **Professional paid support**, purchase a Matomo On-Premises Support Plan: [matomo.org/support-plans](https://matomo.org/support-plans/)  
+For **Professional paid support**, purchase a Matomo On-Premises Support Plan: [matomo.org/support-plans](https://matomo.org/support-plans/)
 
 ## Contact
 
@@ -101,24 +104,23 @@ About us: [matomo.org/team/](https://matomo.org/team/)
 
 Contact us: [matomo.org/contact/](https://matomo.org/contact/)
 
-
 ## More information
 
 What makes Matomo unique from the competition:
 
-  * You own your web analytics data: since Matomo is installed on your server, the data is stored in your own database and you can get all the statistics using the powerful Matomo Analytics API.
+- You own your web analytics data: since Matomo is installed on your server, the data is stored in your own database and you can get all the statistics using the powerful Matomo Analytics API.
 
-  * Matomo is a Free Software which can easily be configured to respect your visitors' privacy.
+- Matomo is a Free Software which can easily be configured to respect your visitors' privacy.
 
-  * Modern, easy to use User Interface: you can fully customize your dashboard, drag and drop widgets and more.
+- Modern, easy to use User Interface: you can fully customize your dashboard, drag and drop widgets and more.
 
-  * Matomo features are built inside plugins: you can add new features and remove the ones you don’t need.
-    You can build your own web analytics plugins or hire a consultant to have your custom feature built-in Matomo.
+- Matomo features are built inside plugins: you can add new features and remove the ones you don’t need.
+  You can build your own web analytics plugins or hire a consultant to have your custom feature built-in Matomo.
 
-  * A vibrant international Open community of more than 200,000 active users (tracking even more websites!)
+- A vibrant international Open community of more than 200,000 active users (tracking even more websites!)
 
-  * Advanced Web Analytics capabilities such as E-commerce Tracking, Goal tracking, Campaign tracking,
-    Custom Variables, Email Reports, Custom Segment Editor, Geo Location, Real-time visits and maps, [and a lot more!](https://matomo.org/feature-overview/)
+- Advanced Web Analytics capabilities such as E-commerce Tracking, Goal tracking, Campaign tracking,
+  Custom Variables, Email Reports, Custom Segment Editor, Geo Location, Real-time visits and maps, [and a lot more!](https://matomo.org/feature-overview/)
 
 Documentation and more info on https://matomo.org.
 
