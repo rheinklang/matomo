@@ -26,6 +26,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           exclude: |
             **/.DS_Store
-            .github/**
-            .git/**
+            **/.git*
+            **/.git*/**
+            **/.github/**
             config/**
